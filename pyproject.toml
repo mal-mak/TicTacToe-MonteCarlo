@@ -1,0 +1,10 @@
+[project]
+name = "tictactoe"
+version = "0.1.0"
+description = "MC and MCTS on TicTacToe"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+]
