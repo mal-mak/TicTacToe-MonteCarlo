@@ -8,3 +8,9 @@ dependencies = [
     "ipykernel>=6.29.5",
     "matplotlib>=3.10.1",
 ]
+
+[dependency-groups]
+dev = [
+    "notebook>=7.4.2",
+    "pip>=25.1.1",
+]
