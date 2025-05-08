@@ -1,12 +1,15 @@
 # Installation & Usage
 
-- MacOS / Linux: Install [uv](curl -LsSf https://astral.sh/uv/install.sh | sh)
-- Windows: Install [uv](powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex")
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
-```bash
-git clone https://github.com/mal-mak/TicTacToe-MonteCarlo.git
-cd TicTacToe-MonteCarlo
-uv sync
-``` 
+2. Run the following commands:
+	```bash
+	git clone https://github.com/mal-mak/TicTacToe-MonteCarlo.git
+	cd TicTacToe-MonteCarlo
+	uv python install 3.12
+	uv sync
+	``` 
 
-Once that's done, you can run the notebook with the kernel set as python 3.12.10 from the venv
+3. Open the [notebook](ttt.ipynb) and select **.venv (Python 3.12.*)** as the kernel.
+
+4. All done, you can run the notebook.
